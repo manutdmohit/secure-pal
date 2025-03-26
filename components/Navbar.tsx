@@ -287,7 +287,7 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-50 bg-[#0a4e7f]/80 backdrop-blur-sm lg:hidden">
           <div className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-[#0a4e7f] p-0 shadow-lg">
-            <div className="flex h-auto items-center justify-between border-b px-4">
+            <div className="flex h-auto items-center justify-between px-4">
               <Link
                 href="/"
                 className="flex items-center"
