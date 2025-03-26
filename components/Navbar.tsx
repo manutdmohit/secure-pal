@@ -287,16 +287,19 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-50 bg-[#0a4e7f]/80 backdrop-blur-sm lg:hidden">
           <div className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-[#0a4e7f] p-0 shadow-lg">
-            <div className="flex h-16 items-center justify-between border-b px-4">
+            <div className="flex h-auto items-center justify-between border-b px-4">
               <Link
                 href="/"
                 className="flex items-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <img
+                <Image
                   src="/images/logo.png"
                   alt="Secure Pal Logo"
-                  className="h-10 w-auto"
+                  className="h-20 w-20 object-contain"
+                  width={70}
+                  height={70}
+                  priority
                 />
               </Link>
               <div className="flex items-center gap-2">
