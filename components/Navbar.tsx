@@ -294,7 +294,7 @@ export function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <img
-                  src="/images/secure-pal-logo-bg-removed.png"
+                  src="/images/logo.png"
                   alt="Secure Pal Logo"
                   className="h-10 w-auto"
                 />
